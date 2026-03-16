@@ -1,0 +1,51 @@
+# Unreal Engine specific files
+Binaries/
+Intermediate/
+Saved/
+Plugins/Marketplace/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# IDE files
+.vs/
+.vscode/
+*.code-workspace
+*.sln.DotSettings
+*.sln.DotSettings.user
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Build outputs
+*.exe
+*.dll
+*.lib
+*.obj
+*.a
+*.so
+*.dylib
+
+# Temp files
+*.tmp
+*.log
+
+# Pack files
+Temp/
+Dist/
+
+# Compiled binaries
+Build/
+
+# DerivedData
+DerivedDataCache/
+
+# Exclude large asset caches
+*.uasset
+!Content/**/*.uasset
+Content/Binaries/
