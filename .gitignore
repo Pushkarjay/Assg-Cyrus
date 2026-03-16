@@ -7,6 +7,7 @@ Plugins/Marketplace/
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
+DerivedDataCache/
 
 # IDE files
 .vs/
@@ -38,14 +39,13 @@ Thumbs.db
 # Pack files
 Temp/
 Dist/
-
-# Compiled binaries
 Build/
 
-# DerivedData
-DerivedDataCache/
-
-# Exclude large asset caches
+# Asset caches
 *.uasset
-!Content/**/*.uasset
+*.umap
 Content/Binaries/
+
+# Distribution
+*.zip
+submission/
