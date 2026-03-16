@@ -49,3 +49,9 @@ Content/Binaries/
 # Distribution
 *.zip
 submission/
+
+# User reference files (not for GitHub)
+SUBMISSION_EMAIL.txt
+SUBMISSION_NOTES.txt
+SUBMISSION.md
+IMPLEMENTATION_COMPLETE.md
